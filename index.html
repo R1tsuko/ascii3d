@@ -6,16 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3dascii</title>
   <script defer src="bundle.js"></script></head>
-  <body
-    style="
-      display: flex;
-      width: 98vw;
-      height: 98vh;
-      align-items: center;
-      justify-content: center;
-      background-color: black;
-    "
-  >
+  <body style="position: relative; background-color: black">
     <pre
       id="image"
       style="
@@ -24,10 +15,34 @@
         font-size: 2px;
         line-height: 2px;
       "
-    >
-    lorem ipsum</pre
-    >
-    <input id="fileInput" type="file" />
+    ></pre>
+    <input
+      id="fileInput"
+      type="file"
+      style="position: absolute; top: 0; right: 0; color: white"
+    />
+    <input
+      id="alpha"
+      placeholder="alpha"
+      style="position: absolute; top: 25px; right: 90px; width: 30px"
+    />
+    <input
+      id="beta"
+      placeholder="beta"
+      style="position: absolute; top: 25px; right: 45px; width: 30px"
+    />
+    <input
+      id="gamma"
+      placeholder="gamma"
+      style="position: absolute; top: 25px; right: 0; width: 30px"
+    />
+    <button id="rotate" style="position: absolute; top: 50px; right: 0">
+      Повернуть!
+    </button>
+    <h3
+      id="loader"
+      style="position: absolute; top: 100px; right: 0; color: white"
+    ></h3>
   </body>
   <script type="module" src="./bundle.js"></script>
 </html>
