@@ -18,13 +18,13 @@
 Если вы хотите склонировать проект с GitHub:
 
 ```bash
-git clone https://github.com/ваш-username/ваш-проект.git
+git clone https://github.com/R1tsuko/ascii3d.git
 ```
 
 Перейдите в папку проекта:
 
 ```bash
-cd ваш-проект
+cd ascii3d
 ```
 
 Или просто скачайте ZIP-архив с репозиторием и распакуйте его локально.
