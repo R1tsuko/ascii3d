@@ -38,11 +38,11 @@ cd ваш-проект
 ```
 ваш-проект/
 ├── index.html
-└── script.js
+└── bundle.js
 ```
 
 - `index.html` — главная страница проекта
-- `script.js` — JavaScript-логика
+- `bundle.js` — JavaScript-логика
 
 ---
 
